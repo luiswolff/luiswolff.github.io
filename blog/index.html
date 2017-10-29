@@ -1,0 +1,12 @@
+--- 
+layout: default 
+title: Blog von Luis Wolff 
+---
+
+<div class="blurl">
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string}} : <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span></li>
+        {% endfor %}
+    </ul>
+</div>
