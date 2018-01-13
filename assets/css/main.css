@@ -164,7 +164,7 @@ header {
     transform: translate(-50%, -50%)
   }
   header a, header a:visited {
-    color: #424242; }
+    color: #ececec; }
 
 nav {
   font-size: 20px;
@@ -176,10 +176,10 @@ nav {
     display: none; }
   nav .menu-icon {
     display: none; }
-  nav .page-link {
-    color: #111;
+  nav a {
+    color: #e8e8e8;
     line-height: 1.5; }
-    nav .page-link:not(:last-child) {
+    nav a:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     nav {
