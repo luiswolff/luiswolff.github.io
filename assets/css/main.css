@@ -119,11 +119,13 @@ pre {
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  }
   @media screen and (max-width: 800px) {
     .wrapper {
       padding-right: 15px;
-      padding-left: 15px; } }
+      padding-left: 15px;
+      } }
 
 /**
  * Clearfix
@@ -161,7 +163,7 @@ header {
     top: 50%;
     left: 50%;
     margin-right:-50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
   }
   header a, header a:visited {
     color: #ececec; }
