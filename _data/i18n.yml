@@ -1,0 +1,22 @@
+de:
+  header:
+    occupation: Full-Stack Webentwickler
+  footer:
+    maintain: Seite wird gepflegt von
+    createdWith: Erstellt mit
+  nav:
+    home: Home
+    about: Über mich
+    contact: Kontakt
+    blog: Mein Blog
+en:
+  header:
+    occupation: Full Stack Web Developer
+  footer:
+    maintain: Page is maintained by
+    createdWith: Created with
+  nav:
+    home: Home
+    about: About me
+    contact: Contact
+    blog: My Blog

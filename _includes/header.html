@@ -1,5 +1,12 @@
 <header class="site-header" role="banner">
-    <h1>
-        <a class="site-title" href="/">{{ site.name }}</a>
-    </h1>
+    <a href="/">
+        {% assign languagePack = site.data.i18n[page.language].header %}
+        {% assign siteData = site.data.meta %}
+        <h1 class="site-title">
+            {{ siteData.author.name}}
+        </h1>
+        <h2>
+            {{ languagePack.occupation }}
+        </h2>
+    </a>
 </header>
