@@ -2,10 +2,10 @@
     <div class="wrapper">
         <div class="footer-col-wrapper">
             {% assign author = site.data.meta.author %}
-            {% assign languagePack = site.data.i18n[page.language].footer %}
+            {% assign lang = site.data.i18n[page.language].footer %}
             <div class="footer-col footer-col-1">
-                {{ languagePack.maintain }} <a href="mailto:{{ author.email }}">{{ author.name}}</a><br>
-                {{ languagePack.createdWith }} <a href="https://pages.github.com">Github Pages</a>
+                {{ lang.maintain }} <a href="mailto:{{ author.email }}">{{ author.name}}</a><br>
+                {{ lang.createdWith }} <a href="https://pages.github.com">Github Pages</a>
             </div>
             <div class="footer-col footer-col-2">
                 <p>&copy; 2018 by {{ author.name }}</p>
@@ -15,7 +15,7 @@
                     <li>
                         <a href="{{ author.github }}">
                             <span class="icon">
-                                <img src="/assets/images/icon-github.svg" />
+                                <img height="16px" src="/assets/images/GitHub.png" />
                             </span>
                             <span class="username">Github</span>
                         </a>
@@ -23,7 +23,7 @@
                     <li>
                         <a href="{{ author.twitter }}">
                             <span class="icon">
-                                <img src="/assets/images/icon-twitter.svg" />
+                                <img height="16px" src="/assets/images/Twitter.png" />
                             </span>
                             <span class="username">Twitter</span>
                         </a>
