@@ -2,5 +2,12 @@
 layout: pages/about 
 title: Über Luis Wolff 
 language: de
-text-main: Hier werde ich etwas zu meinen bisherigen Wertegang und Kenntissen schreiben
+text:
+    interests: Was sind meine Interessen?
+    summary: 'Als Full-Stack Webentwickler gilt mein berufliches Interesse der Entwicklung von webbasierter Enterprise-Software. Hier drunter verstehe Ich Anwendungen, mit denen betriebliche Anforderungen ungesetzt werden. Mit solcher Software wollen Unternehmen Geschäftsprozesse wirtschaftlicher gestalten, ihre strategische Wettbewerbsposition verbessern oder neue Geschäftsfelder akquirieren. Aus meiner Sicht bauen webbasierte Unternehmensanwendungen hauptsächlich auf den folgenden drei Säulen auf:'
+    web_development: '<b>Web-Entwicklung:</b> Intuitive Oberfläche machen Software erst nutzbar. Das Internet baut dabei auf HTTP, HTML, CSS und JavaScript auf. Solche Anwendungen können dabei von jedem Browser konsumiert werden.' 
+    bussines_logic: '<b>Geschäftslogik:</b> Betriebliche Ziele werden durch die Optimierung von Prozessen erreicht. Software muss dazu Geschäftsobjekte und ihre Transformation abbilden. Mit Java SE oder Java EE können prinzipiell plattformunabhängig Ansätze verfolgt werden.'
+    database_development: '<b>Datenbanken:</b> Unternehmensanwendung basieren auf Daten. Ihre Konsistenz und flexible Anpassung kann mit SQL sichergestellt werden. Aber auch objektorientierte Ansätze können ihre Vorzüge haben.'
+    combination: 'Als Full-Stack Webentwickler sehe ich meine Aufgabe darin, die drei oben genannten Bereiche so zu kombinieren, das betriebliche Herausforderungen möglichst effizient gelöst werden können. Mir geht es also weniger darum möglichst ausgefeilte Codestrukturen zu schaffen, sondern mehr um wartbare Software, die sich gut an sich ändernden Anforderungen anpassen lässt. Auch geht es mir weniger darum eine bestimmte Traumanwendung zu entwickeln, sondern mehr darum zu sehen, dass meine Arbeit tatsächlich einen Nutzen für die Menschen hat, die mit der Software arbeiten. Durch Software sollte bestehende Abläufe vereinfacht werden und nicht einfach nur zusätzliche geschaffen.'
+    conclusion: 'Viele der oben genannten Ideen finden sich in ähnlicher Weise auch im <a href="http://agilemanifesto.org/iso/de/manifesto.html">agilen Manifest</a> wieder, nach dessen Grundsätzen auch ich Software entwickle.'
 ---
