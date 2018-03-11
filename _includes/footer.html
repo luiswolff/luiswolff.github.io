@@ -1,43 +1,15 @@
-<footer class="site-footer">
+<footer>
     <div class="wrapper">
-        <div class="footer-col-wrapper">
-            {% assign author = site.data.meta.author %}
-            {% assign lang = site.data.i18n[page.language].footer %}
-            <div class="footer-col footer-col-1">
-                {{ lang.maintain }} <a href="mailto:{{ author.email }}">{{ author.name}}</a><br>
-                {{ lang.createdWith }} <a href="https://pages.github.com">Github Pages</a>
-            </div>
-            <div class="footer-col footer-col-2">
-                <p>&copy; 2018 by {{ author.name }}</p>
-            </div>
-            <div class="footer-col footer-col-3">
-                <ul class="social-media-list">
-                    <li>
-                        <a href="{{ author.github }}">
-                            <span class="icon">
-                                <img height="16px" src="/assets/images/GitHub.png" />
-                            </span>
-                            <span class="username">Github</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ author.twitter }}">
-                            <span class="icon">
-                                <img height="16px" src="/assets/images/Twitter.png" />
-                            </span>
-                            <span class="username">Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ author.xing }}">
-                            <span class="icon">
-                                <img height="16px" src="/assets/images/XING.png" />
-                            </span>
-                            <span class="username">XING</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        {% assign author = site.data.meta.author %}
+        {% assign lang = site.data.i18n[page.language].footer %}
+        <div class="footer-col footer-col-1">
+            {{ lang.createdWith }} <a href="https://pages.github.com">Github Pages</a>
+        </div>
+        <div class="footer-col footer-col-2">
+            <p>&copy; 2018 by <a href="mailto:{{ author.email }}">{{ author.name}}</a></p>
+        </div>
+        <div class="footer-col footer-col-3">
+            {% include social-media-list.html %}
         </div>
     </div>
 </footer>
