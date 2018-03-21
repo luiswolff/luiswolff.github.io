@@ -1,0 +1,19 @@
+<ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <hr>
+        <h4 class="post-header">
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </h4>
+        <div class="post-meta">
+            {{ post.date | date_to_string}} | {{ post.author }}
+        </div>
+        <div class="post-content">
+            {{ post.excerpt }}
+        </div>
+        <div>
+            <a href="{{ post.url }}" title="{{ post.title}}">Mehr lesen</a>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
