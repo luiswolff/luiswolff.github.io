@@ -1,6 +1,6 @@
 de:
   header:
-    occupation: Full-Stack Webentwickler
+    occupation: Enterprise-Entwickler
   footer:
     maintain: Seite wird gepflegt von
     createdWith: Erstellt mit
@@ -11,7 +11,7 @@ de:
     blog: Mein Blog
 en:
   header:
-    occupation: Full Stack Web Developer
+    occupation: Enterprise Developer
   footer:
     maintain: Page is maintained by
     createdWith: Created with
