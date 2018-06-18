@@ -8,6 +8,7 @@ dl, dd, ol, ul, img, figure {
 /* HTML Tag styling */
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: justify;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -145,6 +146,10 @@ nav {
         nav .page-link:not(:last-child) {
           margin-right: 0; } }
 
+p {
+  margin: 8px 2px
+}
+
 main {
   padding: 15px 1px}
 
@@ -230,11 +235,13 @@ footer .wrapper {
 
 .text-box {
   margin: 0 auto; 
-  padding: 15px 30px;
+  padding: 2px 30px;
 }
 
 .text-box p {
-  padding: 10px
+  min-height: 150px;
+  padding: 10px;
+  margin: 0
 }
 .center {
   text-align: center
