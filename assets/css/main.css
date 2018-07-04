@@ -234,6 +234,36 @@ footer .wrapper {
   color: #2a7ae2;
   text-decoration: none}
 
+.contact-channels {
+  padding: 0 20px
+}
+.contact-channels .social-media-list .label {
+  display: none;
+}
+
+.contact-channels .social-media-list img.icon {
+  width: 80px;
+}
+
+.contact-channels .social-media-list .channel {
+  width: 80px;
+  margin: auto;
+  padding: 10px
+}
+
+@media screen and (min-width: 601px) {
+  .contact-channels .social-media-list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .contact-channels .social-media-list li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
+
 .footer-col {
   float: left;
   margin-bottom: 15px;
