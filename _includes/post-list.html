@@ -12,7 +12,7 @@
             {{ post.excerpt }}
         </div>
         <div>
-            <a href="{{ post.url }}" title="{{ post.title}}">Mehr lesen</a>
+            <a href="{{ post.url }}" title="{{ post.title}}">{{site.data.i18n[page.language].posts.readMore}}</a>
         </div>
     </li>
     {% endfor %}

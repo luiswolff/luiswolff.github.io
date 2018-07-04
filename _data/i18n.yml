@@ -1,6 +1,6 @@
 de:
   header:
-    occupation: Enterprise-Entwickler
+    occupation: Enterprise-Software-Entwickler
   footer:
     maintain: Seite wird gepflegt von
     createdWith: Erstellt mit
@@ -9,9 +9,11 @@ de:
     about: Über mich
     contact: Kontakt
     blog: Mein Blog
+  posts:
+    readMore: Mehr lesen
 en:
   header:
-    occupation: Enterprise Developer
+    occupation: Enterprise Software Developer
   footer:
     maintain: Page is maintained by
     createdWith: Created with
@@ -20,3 +22,5 @@ en:
     about: About me
     contact: Contact
     blog: My Blog
+  posts:
+    readMore: read more
