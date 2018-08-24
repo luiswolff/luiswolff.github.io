@@ -44,7 +44,11 @@ code {
   background-color: #eef; }
 
 code {
-  padding: 1px 5px; }
+  padding: 1px 5px;
+  hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;;
+}
 
 pre {
   padding: 8px 12px;
