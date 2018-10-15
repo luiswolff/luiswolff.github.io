@@ -1,15 +1,6 @@
 <footer>
     <div class="wrapper">
         {% assign author = site.data.meta.author %}
-        {% assign lang = site.data.i18n[page.language].footer %}
-        <div class="footer-col footer-col-1">
-            {{ lang.createdWith }} <a href="https://pages.github.com">Github Pages</a>
-        </div>
-        <div class="footer-col footer-col-2">
-            &copy; 2018 by <a href="mailto:{{ author.email }}">{{ author.name}}</a>
-        </div>
-        <div class="footer-col footer-col-3">
-            {% include social-media-list.html %}
-        </div>
+        &copy; 2018 by <a href="https://luiswolff.github.io">{{ author.name}}</a> | <a href="/datenschutz.html">Datenschutzerklärung</a>
     </div>
 </footer>
