@@ -6,8 +6,33 @@ layout: default
 <h3>{{ page.text.welcome }}</h3>
 <p>{{ page.text.purpose-of-this-page }}</p>
 
-<h3 id="about">About section</h3>
-<p>About content</p>
+<h3 id="about">{{ page.text.interests }}</h3>
+<p>{{ page.text.summary}}</p>
+<div class="text-box">
+    <div class="inline-block">
+        <div class="image-wrapper left">
+            <img class="medium" src="/assets/images/web_development.png">
+        </div>
+        <p>{{ page.text.web_development }}</p>
+    </div>
+    <div class="inline-block">
+        <div class="image-wrapper left">
+            <img class="medium" src="/assets/images/bussines_logic.png">
+        </div>
+        <p>{{ page.text.bussines_logic }}</p>
+    </div>
+    <div class="inline-block">
+        <div class="image-wrapper left">
+            <img class="medium" src="/assets/images/database-development.png">
+        </div>
+        <p>{{ page.text.database_development }}</p>
+    </div>
+</div>
+<p>{{ page.text.combination }}</p>
+<p>{{ page.text.conclusion }}</p>
 
-<h3 id="contact">Contect section</h3>
-<p>Contact content</p>
+<h3 id="contact">{{ page.text.contact }}</h3>
+<p>{{ page.text.questions }}</p>
+<div class="contact-channels">
+    {% include social-media-list.html %}
+</div>
